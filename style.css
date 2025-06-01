@@ -104,11 +104,11 @@ ul ul {
 }
 
 .icon {
-  width: 18px;
-  height: 18px;
-  margin-right: 6px;
-  vertical-align: middle;
-  filter: invert(35%) sepia(83%) saturate(3260%) hue-rotate(190deg) brightness(93%) contrast(88%);
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  vertical-align: text-bottom;
+  display: inline-block;
 }
 
 
@@ -134,4 +134,23 @@ ul ul {
   section {
     padding: 1rem;
   }
+  
+  .edu-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+
+.edu-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  }
+
+  
 }
