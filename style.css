@@ -104,11 +104,13 @@ ul ul {
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   margin-right: 6px;
-  fill: currentColor;
+  vertical-align: middle;
+  filter: invert(35%) sepia(83%) saturate(3260%) hue-rotate(190deg) brightness(93%) contrast(88%);
 }
+
 
 .divider {
   color: #999;
