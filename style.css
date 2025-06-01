@@ -1,15 +1,17 @@
+/* Base Typography and Layout */
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 0 1rem;
-  background-color: #f9f9f9;
+  padding: 0;
+  background-color: #f4f4f7;
   color: #222;
 }
 
 main {
-  max-width: 720px;
+  max-width: 800px;
   margin: 2rem auto 4rem auto;
+  padding: 0 1.25rem;
 }
 
 h1 {
@@ -31,34 +33,14 @@ h2 {
   padding-left: 0.5rem;
 }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-ul {
-  padding-left: 1.2rem;
-}
-
-ul ul {
-  margin-top: 0.4rem;
-  margin-bottom: 0.8rem;
-  padding-left: 1.5rem;
-  font-size: 0.95rem;
-  color: #444;
-}
-
-/* Nav bar */
+/* Navigation */
 .nav {
   display: flex;
   gap: 1.5rem;
   list-style: none;
-  padding: 1rem 0;
+  padding: 1rem;
   justify-content: center;
-  background-color: #fff;
+  background-color: #ffffff;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -77,15 +59,77 @@ ul ul {
   color: #0077cc;
 }
 
-/* Hero section */
+/* Hero Section */
 .hero {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
+/* Section Styling */
 section {
-  margin-bottom: 2.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+ul ul {
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  fill: currentColor;
+}
+
+.divider {
+  color: #999;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
 }
