@@ -1,6 +1,6 @@
 /* Base Typography and Layout */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -126,11 +126,14 @@ ul ul {
 }
 
 .edu-logo {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
+  margin-right: 8px;
+  vertical-align: middle;
   display: inline-block;
 }
+
 
 
 .divider {
