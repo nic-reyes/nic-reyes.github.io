@@ -1,0 +1,76 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 1rem;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+main {
+  max-width: 720px;
+  margin: 4rem auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  color: #333;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+/* ✅ Nested bullet styling */
+ul ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Navigation Bar */
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 1rem 0;
+  justify-content: center;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #0077cc;
+}
