@@ -185,3 +185,14 @@ ul ul {
     padding: 1rem;
   }
 }
+
+.tab-section {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: none;
+}
+
+.tab-section.active {
+  display: block;
+  opacity: 1;
+}
