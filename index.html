@@ -134,8 +134,20 @@
 
   <script>
     function showSection(id) {
-      document.querySelectorAll('.tab-section').forEach(sec => sec.style.display = 'none');
-      document.getElementById(id).style.display = 'block';
+      // Hide all sections with fade-out
+      document.querySelectorAll('.tab-section').forEach(section => {
+        section.classList.remove('active');
+        setTimeout(() => section.style.display = 'none', 400); // wait for fade-out
+      });
+  
+      // Show the target section after fade-out delay
+      const target = document.getElementById(id);
+      setTimeout(() => {
+        target.style.display = 'block';
+        requestAnimationFrame(() => {
+          target.classList.add('active'); // triggers fade-in
+        });
+      }, 400);
     }
   </script>
 </body>
