@@ -149,13 +149,41 @@ ul ul {
 
   h1 {
     font-size: 2rem;
-  }
+    }
 
   .subtitle {
     font-size: 1rem;
-  }
+    }
 
   section {
     padding: 1rem;
+    }
+  .hero-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
   }
+
+  .experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 1rem;
+  font-weight: 600;
+  }
+
+.experience-header span:first-child {
+  font-weight: 600;
+  }
+
+.experience-date {
+  font-weight: normal;
+  color: #555;
+  font-size: 0.95rem;
+  }
+
+
 }
