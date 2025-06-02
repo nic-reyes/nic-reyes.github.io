@@ -135,8 +135,8 @@ ul ul {
 }
 
 .edu-logo {
-  width: 32px;
-  height: 32px;
+  width: 100px;
+  height: auto;
   object-fit: contain;
   margin-right: 8px;
   vertical-align: middle;
