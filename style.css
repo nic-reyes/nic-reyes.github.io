@@ -66,6 +66,15 @@ h2 {
   margin-bottom: 3rem;
 }
 
+.hero-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
 /* Section Styling */
 section {
   margin-bottom: 2rem;
@@ -111,7 +120,7 @@ ul ul {
   display: inline-block;
 }
 
-/* RICE OWL LOGO - EDUCATION */
+/* Rice Owl Logo in Education */
 .edu-card {
   display: flex;
   align-items: center;
@@ -134,58 +143,30 @@ ul ul {
   display: inline-block;
 }
 
-
-
-.divider {
-  color: #999;
-}
-
-
-
-
-
-  .hero-photo {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
-  }
-
-  .experience-header {
+/* Experience Header with Right-Aligned Date */
+.experience-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-top: 1rem;
   font-weight: 600;
-  }
+}
 
 .experience-header span:first-child {
   font-weight: 600;
-  }
+}
 
 .experience-date {
   font-weight: normal;
   color: #555;
   font-size: 0.95rem;
-  }
+}
 
+.divider {
+  color: #999;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA - FOR LATER */
+/* Responsive Design */
 @media (max-width: 600px) {
   .nav {
     flex-wrap: wrap;
@@ -194,16 +175,13 @@ ul ul {
 
   h1 {
     font-size: 2rem;
-    }
+  }
 
   .subtitle {
     font-size: 1rem;
-    }
+  }
 
   section {
     padding: 1rem;
-    }
-
-
-
+  }
 }
